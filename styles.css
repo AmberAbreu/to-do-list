@@ -1,0 +1,77 @@
+body{
+  background-color: #FFE3F1;
+  font-family: cursive;
+}
+#notepad {
+  margin: auto;
+  background-color: #FFE3F1;
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+  box-shadow: 14px 14px 20px #cbced1,
+  -14px -14px 20px white;
+}
+
+#today {
+  display: flex;
+  width: 75%;
+  height: 100px;
+  border-radius: 25px;
+  background-color: #FFE3F1;
+  margin: 40px 50px;
+  box-shadow: 7px 7px 10px #cbced1,
+  -7px -7px 10px white;
+}
+input{
+  border-radius: 50px;
+  border-color: white;
+  margin-top: 30px;
+  margin-left: 25px;
+  height: 30px;
+  width: 200px;
+  box-shadow: inset 6px 6px 6px #cbced1,
+  inset -6px -6px 6px white;
+}
+button{
+  height: 30px;
+  width: 50px;
+  margin-top: 40px;
+  margin-right: 10px;
+  border-radius: 25px;
+  background: #FFE3F1;
+  border-color: white;
+  box-shadow: 3px 3px 3px #cbced1,
+  -3px -3px 3px white
+  
+}
+button:hover {
+  box-shadow: none;
+}
+
+#list {
+  width: 75%;
+  height: 375px;
+  border-radius: 25px;
+  margin-top: 5px;
+  margin-left: 50px;
+  box-shadow: 7px 7px 10px #cbced1,
+  -7px -7px 10px white;
+}
+
+#to-do-items {
+  list-style-type: circle;
+  color: black;
+}
+
+li {
+  margin: 12px;
+  transition: .4s;
+  list-style-type: none;
+}
+
+.checked {
+  text-decoration: line-through;
+  background-color: #FFE3F1;
+}
